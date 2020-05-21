@@ -34,7 +34,6 @@ public class GlobalTest extends TestBase{
 	@Test
 	public void loginOld() throws IOException {
 		loginTest();
-		System.out.println("Changes are made");
 	}
 
 }
