@@ -15,7 +15,7 @@ public class TestBase {
 	public WebDriver driver = null;
 	
 	
-	public void loginTest() throws IOException {
+	public WebDriver loginTest() throws IOException {
 		
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream("C:\\Users\\vladi\\workspace\\Exercise\\src\\test\\datadriver.properties");
@@ -36,6 +36,8 @@ public class TestBase {
 		driver.findElement(By.id("gb_70")).click();
 		driver.findElement(By.id("identifierId")).sendKeys(prop.getProperty("email"));
 		driver.findElement(By.id("identifierNext")).click();
+		
+		return driver;
 
 	}
 	
