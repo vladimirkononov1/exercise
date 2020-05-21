@@ -36,6 +36,7 @@ public class GlobalTest extends TestBase{
 		loginTest();
 		System.out.println("one more printed message");
 		System.out.println("added by develop");
+		System.out.println("added by master");
 	}
 
 }
