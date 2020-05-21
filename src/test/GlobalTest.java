@@ -35,6 +35,7 @@ public class GlobalTest extends TestBase{
 	public void loginOld() throws IOException {
 		loginTest();
 		System.out.println("one more printed message");
+		System.out.println("added by develop");
 	}
 
 }
