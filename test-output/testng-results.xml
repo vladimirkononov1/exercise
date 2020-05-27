@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-21T15:08:44 PDT" name="Default suite" finished-at="2020-05-21T15:09:00 PDT" duration-ms="16124">
+  <suite started-at="2020-05-26T18:24:02 PDT" name="Default suite" finished-at="2020-05-26T18:24:21 PDT" duration-ms="19299">
     <groups>
     </groups>
-    <test started-at="2020-05-21T15:08:44 PDT" name="Default test" finished-at="2020-05-21T15:09:00 PDT" duration-ms="16124">
-      <class name="test.GlobalTest">
-        <test-method is-config="true" signature="initializedDriver()[pri:0, instance:test.GlobalTest@79ad8b2f]" started-at="2020-05-21T15:08:44 PDT" name="initializedDriver" finished-at="2020-05-21T15:08:51 PDT" duration-ms="7816" status="PASS">
+    <test started-at="2020-05-26T18:24:02 PDT" name="Default test" finished-at="2020-05-26T18:24:21 PDT" duration-ms="19299">
+      <class name="test.FileUpload">
+        <test-method is-config="true" signature="initialized()[pri:0, instance:test.FileUpload@75f32542]" started-at="2020-05-26T18:24:02 PDT" name="initialized" finished-at="2020-05-26T18:24:07 PDT" duration-ms="5684" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializedDriver -->
-        <test-method signature="loginOld()[pri:0, instance:test.GlobalTest@79ad8b2f]" started-at="2020-05-21T15:08:51 PDT" name="loginOld" finished-at="2020-05-21T15:08:59 PDT" duration-ms="7620" status="PASS">
+        </test-method> <!-- initialized -->
+        <test-method signature="fileUpload()[pri:0, instance:test.FileUpload@75f32542]" started-at="2020-05-26T18:24:07 PDT" name="fileUpload" finished-at="2020-05-26T18:24:20 PDT" duration-ms="12887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginOld -->
-        <test-method signature="printName()[pri:0, instance:test.GlobalTest@79ad8b2f]" started-at="2020-05-21T15:08:59 PDT" name="printName" finished-at="2020-05-21T15:08:59 PDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GlobalTest@79ad8b2f]" started-at="2020-05-21T15:08:59 PDT" name="tearDown" finished-at="2020-05-21T15:09:00 PDT" duration-ms="648" status="PASS">
+        </test-method> <!-- fileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.FileUpload@75f32542]" started-at="2020-05-26T18:24:20 PDT" name="tearDown" finished-at="2020-05-26T18:24:21 PDT" duration-ms="685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.GlobalTest -->
+      </class> <!-- test.FileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
