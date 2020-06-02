@@ -1,6 +1,6 @@
 package test;
 
-public class ReverseMethod {
+public class ReverseDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
